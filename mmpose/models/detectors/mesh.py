@@ -92,6 +92,7 @@ class ParametricMesh(BasePose):
 
         In this function, the detector will finish the train step following
         the pipeline:
+
             1. get fake and real SMPL parameters
             2. optimize discriminator (if have)
             3. optimize generator
